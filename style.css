@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #fff;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  /* background-image: url(bg.webp); */
+  background-color: #000;
+}
+
+/* nav bar start */
+
+#main {
+  height: 100vh;
+}
+#navbar img {
+  height: 55px;
+  /* background-blend-mode: difference;
+  mix-blend-mode: difference; */
+}
+
+#navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+#nav-links ul {
+  display: flex;
+  align-items: center;
+}
+
+#nav-links ul li {
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#nav-log a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#nav-log button {
+  padding: 10px 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 900;
+  transition: all 0.3s;
+  cursor: pointer;
+  color: #000;
+}
+
+#nav-log button:hover {
+  background-color: rgba(255, 255, 255, 0.832);
+}
+
+/* body start */
+
+#main h1 {
+  text-transform: uppercase;
+  font-size: 110px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 150px;
+  position: relative;
+  z-index: 9999;
+}
+
+#main span {
+  background-color: rgb(170, 44, 44);
+  color: #000;
+  font-size: 20px;
+  padding: 15px 28px;
+  border-radius: 50px;
+  margin: 0 20px;
+  margin-top: 15px;
+  line-height: normal;
+}
+
+#main h1:nth-child(2) {
+  margin-top: 50px;
+}
+
+/* image section  */
+
+#main .first-img {
+  height: 200px;
+  width: 150px;
+  position: absolute;
+  top: 18%;
+  left: 15%;
+  border-radius: 10px;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main .third-img {
+  height: 150px;
+  width: 230px;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 26%;
+  right: 25%;
+  border-radius: 10px;
+}
+
+#main .fourth-img {
+  height: 150px;
+  width: 230px;
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  border-radius: 10px;
+}
+
+#main .fifth-img {
+  height: 200px;
+  width: 150px;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 60%;
+  right: 18%;
+  border-radius: 10px;
+}
+
+/* scroll down start  */
+
+#main .scroll {
+  font-size: 18px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 5%;
+  font-weight: 700;
+}
+
+/* sec page start  */
+
+#sec-page {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+#sec-page h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 80px;
+}
+
+#sec-page .imgs {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  gap: 20px;
+}
+
+#sec-page img.page-img1 {
+  width: 200px;
+  height: 200px;
+}
+
+#sec-page img.page-img2 {
+  width: 200px;
+  margin-left: 30px;
+  height: 200px;
+}
+
+#sec-page img.page-img3 {
+  width: 200px;
+  height: 200px;
+  margin-left: 90px;
+}
+
+#sec-page img.page-img4 {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+}
+
+#sec-page .imgs2 {
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  gap: 20px;
+}
+
+#sec-page img.page-img5 {
+  width: 200px;
+  height: 200px;
+}
+
+#sec-page img.page-img6 {
+  width: 200px;
+  margin-left: 30px;
+  height: 200px;
+}
+
+#sec-page img.page-img7 {
+  width: 200px;
+  height: 200px;
+  margin-left: 90px;
+}
+
+#sec-page img.page-img8 {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+}
+
+img.mid-img {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 70%;
+  left: -62%;
+  border-radius: 2px;
+}
